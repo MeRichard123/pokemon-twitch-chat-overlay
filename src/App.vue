@@ -38,7 +38,7 @@ export default {
     };
   },
   created() {
-    let channelArray = ['f8rdy'];
+    let channelArray = ['f8rdy_'];
     if (window.location.search) {
       channelArray = [window.location.search.split('=')[1]];
     }
